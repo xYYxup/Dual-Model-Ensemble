@@ -86,6 +86,12 @@ We express our gratitude to the authors and contributors of DeepfakeBench and Mu
 
 - Yan, Z., Zhang, Y., Yuan, X., Lyu, S., & Wu, B. (2023). DeepfakeBench: A Comprehensive Benchmark of Deepfake Detection. *arXiv preprint arXiv:2307.01426*. [Link](https://github.com/SCLBD/DeepfakeBench)
 
-  Shao, R., et al. (2020). MultiModal-DeepFake: A Multimodal Deep Learning Framework for Deepfake Detection. GitHub repository. [Link](https://github.com/rshaojimmy/MultiModal-DeepFake)
+- Shao, R., et al. (2020). MultiModal-DeepFake: A Multimodal Deep Learning Framework for Deepfake Detection. GitHub repository. [Link](https://github.com/rshaojimmy/MultiModal-DeepFake)
+
+- N. Bonettini, E. D. Cannas, S. Mandelli, L. Bondi, P. Bestagini, and S. Tubaro, “Video Face Manipulation Detection Through Ensemble of CNNs,” Apr. 16, 2020, arXiv: arXiv:2004.07676. doi: 10.48550/arXiv.2004.07676.
+
+- R. Shao, T. Wu, and Z. Liu, “Detecting and Grounding Multi-Modal Media Manipulation,” Apr. 05, 2023, arXiv: arXiv:2304.02556. doi: 10.48550/arXiv.2304.02556.
+
+
 
 For more information, please visit our project repository.
