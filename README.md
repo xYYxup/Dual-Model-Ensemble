@@ -80,7 +80,7 @@ We welcome contributions from the community. Please follow these guidelines:
 
 ## Acknowledgements
 
-We express our gratitude to the authors and contributors of DeepfakeBench and MultiModal-DeepFake for laying the groundwork for DeepFake detection.
+We express our gratitude to the authors and contributors of DeepfakeBench, EfficientNetB4AttST, HAMMER and MultiModal-DeepFake for laying the groundwork for DeepFake detection.
 
 ## References
 
