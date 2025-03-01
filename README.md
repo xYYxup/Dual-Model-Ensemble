@@ -1,12 +1,12 @@
-# DeepFake Detection Using Dual-Model Ensemble Approach by Group Winking😉
+# DeepFake Detection Using Fusion-Model Ensemble Approach by Group Winking😉
 
 ## Overview
 
-In the digital age, the proliferation of DeepFake technology poses significant challenges to media authenticity and public trust. To address this issue, we have developed an AI-centric solution that leverages deep learning techniques to detect facial DeepFake content. Our approach integrates methodologies from two renowned frameworks—[DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) and [MultiModal-DeepFake](https://github.com/rshaojimmy/MultiModal-DeepFake)—and employs a secondary screening mechanism to enhance detection accuracy.
+In the digital age, the proliferation of DeepFake technology poses significant challenges to media authenticity and public trust. To address this issue, we have developed an AI-centric solution that leverages deep learning techniques to detect facial DeepFake content. Our approach integrates methodologies from renowned frameworks—[DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) and [MultiModal-DeepFake](https://github.com/rshaojimmy/MultiModal-DeepFake)—and employs a secondary screening mechanism to enhance detection accuracy.
 
 ## Features
 
-- **Dual-Model Ensemble**: Combines the strengths of two distinct DeepFake detection models to improve robustness and accuracy.
+- **Fusion-Model Ensemble**: Combines the strengths of two distinct DeepFake detection models to improve robustness and accuracy.
 - **Secondary Screening**: Utilizes a custom BinaryFusion neural network to re-evaluate and optimize the classification results from the ensemble models.
 - **CSV-Based Workflow**: Ensures efficient data processing through seamless integration and handling of model outputs via CSV files.
 
@@ -16,9 +16,11 @@ In the digital age, the proliferation of DeepFake technology poses significant c
 2. **Model Integration**:
    - **DeepfakeBench**: Implement state-of-the-art detection methods from DeepfakeBench, analyzing facial features and inconsistencies.
    - **MultiModal-DeepFake**: Employ multimodal detection techniques from MultiModal-DeepFake, assessing both visual and audio cues to identify DeepFakes.
-3. **Secondary Screening with BinaryFusion**:
-   - **Input**: Compile classification results from both models into a CSV file.
-   - **BinaryFusion Network**: Apply a neural network to process the combined model outputs, conducting a secondary evaluation to enhance final classification accuracy.
+   - **EfficientNetB4AttSt**: First integration of **lightweight spatial attention** (1×1 conv + sigmoid) within EfficientNetB4, enabling localized artifact detection (e.g., eye/mouth anomalies) while maintaining computational efficiency.
+   - **HAMMER**: HierArchical Multi-modal Manipulation rEasoning tRansformer (HAMMER) is designed to address the DGM4 task through a dual-phase reasoning framework.
+3. **Secondary Screening with SoftMaxFusion**:
+   - **Input**: Compile classification results from selected models into a CSV file.
+   - **SoftMaxFusion**: Apply a SoftMax Fusion Layer to process the combined model outputs, conducting a secondary evaluation to enhance final classification accuracy.
 
 ## Installation
 
